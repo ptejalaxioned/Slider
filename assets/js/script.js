@@ -27,7 +27,7 @@ for(let i=0;i<a.length;i++)
       if(index==0){
         index=a.length
       }
-      image_border.style. background=`url(${a[index-1]})`;
+      image_border.style.background=`url(${a[index-1]})`;
       index--
     } else if (element.className === "next") {
       console.log("Next",index);

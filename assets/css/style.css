@@ -232,7 +232,8 @@ li {
 
 .image-border {
   background: url("/assets/images/slide-01.jpg");
-  background-size: cover;
+  /* background-size: cover; */
+  transition: all 3s;
 }
 
 .previous {
