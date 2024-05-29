@@ -255,21 +255,16 @@ span {
   text-indent: -9999px;
 }
 
-.previous::before {
-  content: "\f060";
+span::before {
   font-family: "FontAwesome";
   font-size: 20px;
   float: right;
   text-indent: 0;
 }
 
-.next::before {
-  content: "\f061";
-  font-family: "FontAwesome";
-  font-size: 20px;
-  float: right;
-  text-indent: 0;
-}
+.previous::before { content: "\f060"; }
+.next::before { content: "\f061";}
+span:hover { cursor: pointer;}
 /*=================================
   main styling ends here
 =================================*/
